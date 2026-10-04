@@ -13,6 +13,7 @@
     "expo-linking": "~57.0.11",
     "expo-router": "~57.0.24",
     "expo-splash-screen": "~57.0.9",
+    "expo-sqlite": "~57.0.3",
     "expo-status-bar": "~57.0.1",
     "expo-symbols": "~57.0.3",
     "expo-system-ui": "~57.0.4",
@@ -39,5 +40,8 @@
     "web": "expo start --web",
     "lint": "expo lint"
   },
-  "private": true
+  "private": true,
+  "patchedDependencies": {
+    "@expo/metro-config@57.0.12": "patches/@expo%2Fmetro-config@57.0.12.patch"
+  }
 }
